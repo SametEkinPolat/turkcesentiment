@@ -1,6 +1,6 @@
 <?php 
-$python = 'C:\Users\samet\AppData\Local\Programs\Python\Python313\python.exe' . ' '; // where python located
-$comment = 'Çok iyi'; // comment to be predicted
+$python = '' . ' '; // boşluğa python konumu eklenmeli
+$comment = 'Çok iyi'; // test edilecek yorum
 $output = shell_exec("$python tahmin_edici.py $comment ");
 echo "<pre>$output</pre>";
 ?>
